@@ -26,7 +26,7 @@ function updateLastUserActivityTime(){
     },2000)
  })
 }
-\
+
 
 function userCreatedPost (){
     Promise.all([createPost(),updateLastUserActivityTime()]).then((values)=>{
